@@ -1,0 +1,15 @@
+.cell{ 
+    display: inline-block;
+    margin: 0 1px;
+    background-color: #0db6e0;
+    border: 2px solid #0e667c;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.1s all linear;
+}
+
+.cell:hover{
+    background-color: #0e667c;
+    cursor: pointer;
+    transition: 0.1s all linear;
+}

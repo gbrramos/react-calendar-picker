@@ -1,9 +1,10 @@
-import CalendarPicker from './lib/Calendar';
+import { CalendarPicker, Modes } from './lib/Calendar';
 
 function App() {
   return (
     <CalendarPicker 
-      onSelect={(e) => console.log(e)}    
+      mode={Modes.FullDate}
+      onSelect={(v) => console.log(v)}    
     />
   );
 }
